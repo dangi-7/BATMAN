@@ -1,0 +1,59 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background: url('https://i.pinimg.com/736x/62/bf/84/62bf84421129971b4d7cd686f1169814.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent black to blend with Gotham */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px yellow;
+}
+
+.batman-title {
+    font-size: 30px;
+    text-shadow: 3px 3px 5px black;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.hidden {
+    display: none;
+}
+
+#timer {
+    font-weight: bold;
+    color: red;
+}
+
+#message {
+    font-size: 22px;
+    font-weight: bold;
+    color: yellow;
+    margin-top: 20px;
+    text-shadow: 3px 3px 10px black;
+}
